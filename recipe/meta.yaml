@@ -1,13 +1,13 @@
 {% set name = "sagemaker-mlflow" %}
-{% set version = "0.1.0" %}
+{% set version = "0.2.0" %}
 
 package:
   name: {{ name|lower }}
   version: {{ version }}
 
 source:
-  url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/sagemaker_mlflow-{{ version }}.tar.gz
-  sha256: 1fe8f7f010f7c68b6b0b46c032cf6a414f20adfc26cbc6a731d3a91b32b9b84f
+  url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/sagemaker_mlflow-{{ version }}.tar.gz
+  sha256: 88bb6b06d455c47fc2a746edb6467ea4d5a59ff41d6a0e499a11b0caf0896d01
 
 build:
   noarch: python
